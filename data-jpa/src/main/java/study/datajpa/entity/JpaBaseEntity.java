@@ -24,7 +24,7 @@ public class JpaBaseEntity {
     }
 
     @PreUpdate
-    public void preUdate() {
+    public void preUpdate() {
         updatedDate = LocalDateTime.now();
     }
 }
